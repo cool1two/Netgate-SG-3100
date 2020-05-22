@@ -64,4 +64,4 @@
     2. Description = Next Generation Wireless.
     3. IPv4 Address = 192.168.65.1
 
-![SG-3100 Interfaces > Interface Assignments > OPT3](https://github.com/cool1two/Netgate-SG-3100/blob/n00000001/images/Interfaces_OPT2_VLAN.55.png)
+![SG-3100 Interfaces > Interface Assignments > OPT3](https://github.com/cool1two/Netgate-SG-3100/blob/n00000001/images/Interfaces_OPT2_VLAN.65.png)
