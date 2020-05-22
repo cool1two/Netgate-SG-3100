@@ -57,12 +57,17 @@
 
 ---
 
-### **Firewall > Rules (Allow ALL)**
+### **Firewall > Rules (IOT/NGW Networks)**
 
 #### *Items Modified From Default*
-    1. d
+    1. Protocol = Any
+    2. Source = IOT Net
+    3. Description = Allow All IOT
 
 
+![SG-3100 Firewall > Rules > IOT > ALLow ALL](images/Firewall_Rules_Vlan_IOT_Allow_All.png)
+
+---
 
 ##### All credit for VLANs to 'Lawrence Systems'
 
