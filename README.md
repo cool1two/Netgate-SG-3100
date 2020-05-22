@@ -27,7 +27,3 @@
 ### [Interfaces > VLANs](Vlan_Setup/VLANS.md)
 
 ---
-
-
-
-### Firewall 
