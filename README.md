@@ -24,4 +24,20 @@ If you want to embed images, this is how you do it:
 
 ---
 
-## Next
+## Interfaces VLANs
+
+### Items Modified From Default
+
+1. Parent Interface = Lan
+2. VLAN Tag = 55
+3. Description = Internet of Insecure Things.
+
+![SG-3100 Interfaces > Vlan ](https://github.com/cool1two/Netgate-SG-3100/blob/n00000001/images/Interfaces-Vlan-55.png)
+
+#### Repeat for Vlan 65
+
+1. Parent Interface = Lan
+2. VLAN Tag = 55
+3. Description = Next Generation Wireless.
+
+![SG-3100 Interfaces > Vlan ](https://github.com/cool1two/Netgate-SG-3100/blob/n00000001/images/Interfaces-Vlan-65.png)
