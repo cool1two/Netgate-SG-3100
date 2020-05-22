@@ -12,4 +12,4 @@
     4. DNS Server Override = Unchecked
     5. Disable DNS Forwarder = Checked
 
-![SG-3100 System > General Setup](General_Setup/images/System-General-Setup.png)
+![SG-3100 System > General Setup](images/System-General-Setup.png)
