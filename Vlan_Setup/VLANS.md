@@ -57,15 +57,29 @@
 
 ---
 
-### **Firewall > Rules (IOT/NGW Networks)**
+## Firewall > Rules
+
+### **Rules > IOT/NGW Network > Allow All**
 
 #### *Items Modified From Default*
-    1. Protocol = Any
-    2. Source = IOT Net
-    3. Description = Allow All IOT
+    1. Action = Pass
+    2. Protocol = Any
+    3. Source = IOT Net
+    4. Description = Allow All IOT
 
 
 ![SG-3100 Firewall > Rules > IOT > ALLow ALL](images/Firewall_Rules_Vlan_IOT_Allow_All.png)
+
+### **Rules > IOT/NGW Network > Deny**
+
+#### *Items Modified From Default*
+    1. Action = Block
+    2. Protocol = Any
+    3. Destination = LAN Net
+    4. Description = Block IOT > Lan
+
+
+![SG-3100 Firewall > Rules > IOT > ALLow ALL](images/Firewall_Rules_Vlan_IOT_Block_IOT_Lan.png)
 
 ---
 
