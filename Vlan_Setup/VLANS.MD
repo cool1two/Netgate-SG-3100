@@ -55,8 +55,19 @@
 
 ![SG-3100 Interfaces > Interface Assignments](images/Interfaces-Interface-Assignments2.png)
 
+---
+
+### **Firewall > Rules (Allow ALL)**
+
+#### *Items Modified From Default*
+    1. d
+
+
+
 ##### All credit for VLANs to 'Lawrence Systems'
 
 [![All Credit for VLANs to 'Lawrence Systems'](http://img.youtube.com/vi/b2w1Ywt081o/0.jpg)](http://www.youtube.com/watch?v=b2w1Ywt081o)
 
+
+[Return](../README.md)
 ---
