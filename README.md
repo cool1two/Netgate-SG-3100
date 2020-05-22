@@ -24,7 +24,7 @@ If you want to embed images, this is how you do it:
 
 ---
 
-## Interfaces VLANs
+## Interfaces > VLANs
 
 ### Items Modified From Default
 
@@ -41,3 +41,12 @@ If you want to embed images, this is how you do it:
 3. Description = Next Generation Wireless.
 
 ![SG-3100 Interfaces > Vlan ](https://github.com/cool1two/Netgate-SG-3100/blob/n00000001/images/Interfaces-Vlan-65.png)
+
+## Interfaces > Interface Assignments
+
+### Items Modified From Default
+
+1. Modify Interface > Network Port = OPT2 > VLAN 55
+1. Modify Interface > Network Port = OPT3 > VLAN 65
+
+![SG-3100 Interfaces > Vlan ](https://github.com/cool1two/Netgate-SG-3100/blob/n00000001/images/Interfaces-Interface-Assignments.png)
