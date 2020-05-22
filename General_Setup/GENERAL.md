@@ -13,3 +13,5 @@
     5. Disable DNS Forwarder = Checked
 
 ![SG-3100 System > General Setup](images/System-General-Setup.png)
+
+# [Return](../README.md)
