@@ -79,13 +79,13 @@
     4. Description = Block IOT > Lan
 
 
-![SG-3100 Firewall > Rules > IOT > ALLow ALL](images/Firewall_Rules_Vlan_IOT_Block_IOT_Lan.png)
+![SG-3100 Firewall > Rules > IOT > Block IoT to Lan](images/Firewall_Rules_Vlan_IOT_Block_IOT_Lan.png)
 
 ---
 
 ##### All credit for VLANs to 'Lawrence Systems'
 
-[![All Credit for VLANs to 'Lawrence Systems'](http://img.youtube.com/vi/b2w1Ywt081o/0.jpg)](http://www.youtube.com/watch?v=b2w1Ywt081o)
+[![All Credit for VLANs to 'Lawrence Systems'](https://img.youtube.com/vi/b2w1Ywt081o/0.jpg)](https://www.youtube.com/watch?v=b2w1Ywt081o)
 
 
 # [Return](../README.md)
