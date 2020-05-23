@@ -5,7 +5,11 @@
 
 ## **Firewall > Rules**
 
-### **Rules > IOT/NGW Network > Allow All IoT**
+---
+
+### **Firewall > Rules > IOT/NGW Network > Allow All IoT**
+
+![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
 #### *Items Modified From Default*
     1. Action = Pass
@@ -17,7 +21,11 @@
 
 ![SG-3100 Firewall > Rules > IOT > ALLow ALL](images/Firewall_Rules_Vlan_IOT_Allow_All.png)
 
-### **Rules > IOT/NGW Network > Block IoT to LAN**
+---
+
+### **Firewall > Rules > IOT/NGW Network > Block IoT to LAN**
+
+![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
 #### *Items Modified From Default*
     1. Action = Block
@@ -29,7 +37,11 @@
 
 ![SG-3100 Firewall > Rules > IOT > Block IoT to Lan](images/Firewall_Rules_Vlan_IOT_Block_IOT_Lan.png)
 
-### **Rules > IOT/NGW Network > Block External DNS**
+---
+
+### **Firewall > Rules > IOT/NGW Network > Block External DNS**
+
+![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
 #### *Items Modified From Default*
     1. Action = Block
@@ -41,7 +53,11 @@
 
 ![SG-3100 Firewall > Rules > IOT > Block External DNS](images/Firewall_Rules_Vlan_IOT_Block_Dns.png)
 
-### **Rules > IOT/NGW Network > Allow PFSense DNS**
+---
+
+### **Firewall > Rules > IOT/NGW Network > Allow PFSense DNS**
+
+![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
 #### *Items Modified From Default*
     1. Action = Pass
@@ -54,7 +70,7 @@
 
 ![SG-3100 Firewall > Rules > IOT > Allow PFSense DNS](images/Firewall_Rules_Vlan_IOT_Allow_Dns.png)
 
-### **Rules > IOT/NGW Network > Final Configuration**
+### **Firewall > Rules > IOT/NGW Network > Final Configuration**
 
 ![SG-3100 Firewall > Rules > IOT ](images/Firewall_Rules_Vlan_IOT_Final.png)
 
