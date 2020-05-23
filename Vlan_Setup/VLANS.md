@@ -63,9 +63,10 @@
 
 #### *Items Modified From Default*
     1. Action = Pass
-    2. Protocol = Any
-    3. Source = IOT Net
-    4. Description = Allow All IOT
+    2. Interface = IOT
+    3. Protocol = Any
+    4. Source = IOT Net
+    5. Description = Allow All IOT
 
 
 ![SG-3100 Firewall > Rules > IOT > ALLow ALL](images/Firewall_Rules_Vlan_IOT_Allow_All.png)
@@ -74,12 +75,25 @@
 
 #### *Items Modified From Default*
     1. Action = Block
-    2. Protocol = Any
-    3. Destination = LAN Net
-    4. Description = Block IOT > Lan
+    2. Interface = IOT
+    3. Protocol = Any
+    4. Destination = LAN Net
+    5. Description = Block IOT > Lan
 
 
 ![SG-3100 Firewall > Rules > IOT > Block IoT to Lan](images/Firewall_Rules_Vlan_IOT_Block_IOT_Lan.png)
+
+### **Rules > IOT/NGW Network > Block External DNS**
+
+#### *Items Modified From Default*
+    1. Action = Block
+    2. Interface = IOT
+    3. Protocol = UDP
+    4. Destination Port Range = 53 
+    5. Description = Block DNS IoT
+
+
+![SG-3100 Firewall > Rules > IOT > Block IoT to Lan](images/Firewall_Rules_Vlan_IOT_Block_Dns.png)
 
 ---
 
