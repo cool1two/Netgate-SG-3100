@@ -20,12 +20,15 @@
       - [*Final Interface Assignments Configuration.*](#-final-interface-assignments-configuration-)
         * [All credit for VLANs to 'Lawrence Systems'](#all-credit-for-vlans-to--lawrence-systems-)
     + [Firewall](#firewall)
+
 ---
 
-### [System > General Setup](General_Setup/GENERAL.md)
+### [System > General Setup](General_Setup/README.md)
 
-### [Interfaces > VLANs](Vlan_Interface/VLANS.md)
+### [Interfaces > VLANs](Vlan_Interface/README.md)
 
-### [Firewalls > Rules > IOT VLAN](Vlan_Firewall/VLAN_FIREWALL.md)
+### [Firewalls > Rules > IOT VLAN](Vlan_Firewall/README.md)
+
+### [Firewalls > Rules > WAN](Wan_Firewall/README.md)
 
 ---
