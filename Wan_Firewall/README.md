@@ -6,7 +6,9 @@
 
 ---
 
-### <span style="color:Orange">Firewall > Rules >  WAN > WAN Deny ALL IPv4</span>
+```diff
+! Firewall > Rules >  WAN > WAN Deny ALL IPv4
+```
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
