@@ -2,9 +2,11 @@
 
 ## Configuration Setting for Netgate SG-3100
 
-### **System > General Setup**
+## **System > General Setup**
 
 ---
+
+### <span style="color:Orange">System > General Setup</span>
 
 #### *Items Modified From Default*
 

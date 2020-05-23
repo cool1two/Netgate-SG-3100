@@ -2,15 +2,15 @@
 
 ## Configuration Setting for Netgate SG-3100
 
-## **Interfaces > VLANs**
+## **Interfaces > VLANs > VLAN Interfaces**
 
 ---
 
-## Interfaces > VLANs > VLAN Interfaces
+### <span style="color:Orange">Interfaces > VLANs > 55</span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin adding VLAN 55.*
 
-### *Items Modified From Default*
+#### *Items Modified From Default*
 
     1. Parent Interface = Lan
     2. VLAN Tag = 55
@@ -21,9 +21,11 @@
 
 ---
 
+### <span style="color:Orange">Interfaces > VLANs > 65</span>
+
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin adding VLAN 65.*
 
-### *Repeat for Vlan 65*
+#### *Items Modified From Default*
 
     1. Parent Interface = Lan
     2. VLAN Tag = 65
@@ -33,7 +35,7 @@
 
 ---
 
-### **Interfaces > Interface Assignments**
+### <span style="color:Orange">Interfaces > Interface Assignments</span>
 
 ![Click](https://via.placeholder.com/15/FFD800/000000?text=+) `Use the Dropdown to modify`
 
@@ -46,7 +48,7 @@
 
 ---
 
-### **Interfaces > Interface Assignments > OPT2**
+### <span style="color:Orange">Interfaces > Interface Assignments > OPT2</span>
 
 ![Click](https://via.placeholder.com/15/FFD800/000000?text=+) `Click on OPT2 to being editing`
 
@@ -60,7 +62,7 @@
 
 ---
 
-### **Interfaces > Interface Assignments > OPT3**
+### <span style="color:Orange">Interfaces > Interface Assignments > OPT3</span>
 
 ![Click](https://via.placeholder.com/15/FFD800/000000?text=+) `Click on OPT3 to being editing`
 
