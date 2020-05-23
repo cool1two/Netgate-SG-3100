@@ -1,4 +1,4 @@
-# Netgate-SG-3100
+# Netgate-SG-3100 (Complete)
 
 ## Configuration Setting for Netgate SG-3100
 

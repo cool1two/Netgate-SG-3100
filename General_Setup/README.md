@@ -1,8 +1,10 @@
-# Netgate-SG-3100
+# Netgate-SG-3100 (Complete)
 
 ## Configuration Setting for Netgate SG-3100
 
 ### **System > General Setup**
+
+---
 
 #### *Items Modified From Default*
 
@@ -13,5 +15,7 @@
     5. Disable DNS Forwarder = Checked
 
 ![SG-3100 System > General Setup](images/System-General-Setup.png)
+
+---
 
 # [Return](../README.md)
