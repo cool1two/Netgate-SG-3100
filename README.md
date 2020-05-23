@@ -26,6 +26,6 @@
 
 ### [Interfaces > VLANs](Vlan_Interface/VLANS.md)
 
-### [Firewalls > Rules > IOT VLAN](Vlan_Firewall/VLANS_FIREWALL.md)
+### [Firewalls > Rules > IOT VLAN](Vlan_Firewall/VLAN_FIREWALL.md)
 
 ---
