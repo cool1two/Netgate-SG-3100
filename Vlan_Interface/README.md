@@ -46,7 +46,7 @@
 
 ### **Interfaces > Interface Assignments > OPT2**
 
-![Click](https://via.placeholder.com/15/c5f015/000000?text=+) `Click on OPT2 to being editing`
+![Click](https://via.placeholder.com/15/FFD800/000000?text=+) `Click on OPT2 to being editing`
 
 #### *Items Modified From Default*
 
@@ -58,7 +58,7 @@
 
 ### **Interfaces > Interface Assignments > OPT3**
 
-![Click](https://via.placeholder.com/15/c5f015/000000?text=+) `Click on OPT3 to being editing`
+![Click](https://via.placeholder.com/15/FFD800/000000?text=+) `Click on OPT3 to being editing`
 
 #### *Items Modified From Default*
 
