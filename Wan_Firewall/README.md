@@ -6,7 +6,7 @@
 
 ---
 
-### Firewall > Rules >  WAN > WAN Deny ALL IPv4
+### <span style="color:Orange">Firewall > Rules >  WAN > WAN Deny ALL IPv4</span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
@@ -19,6 +19,3 @@
     5. Description = Allow DNS IoT
 
 ![SG-3100 Interfaces > VLANs > 55](images/Interfaces-Vlan-55.png)
-
-
-<style>h3{color:Orange;}</style>
