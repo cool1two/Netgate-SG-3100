@@ -24,6 +24,8 @@
 
 ### [System > General Setup](General_Setup/GENERAL.md)
 
-### [Interfaces > VLANs](Vlan_Setup/VLANS.md)
+### [Interfaces > VLANs](Vlan_Interface/VLANS.md)
+
+### [Firewalls > Rules > IOT VLAN](Vlan_Firewall/VLANS_FIREWALL.md)
 
 ---
