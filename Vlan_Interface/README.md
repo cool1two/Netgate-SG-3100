@@ -35,14 +35,16 @@
 
 ### **Interfaces > Interface Assignments**
 
+![Click](https://via.placeholder.com/15/FFD800/000000?text=+) `Use the Dropdown to modify`
+
 #### *Items Modified From Default*
 
     1. Modify Interface Assignments > Interfaces OPT2 > Network Port = VLAN 55
     2. Modify Interface Assignments > Interfaces OPT3 > Network Port = VLAN 65
 
----
-
 ![SG-3100 Interfaces > Interface Assignments](images/Interfaces-Interface-Assignments.png)
+
+---
 
 ### **Interfaces > Interface Assignments > OPT2**
 
@@ -55,6 +57,8 @@
     3. IPv4 Address = 192.168.55.1
 
 ![SG-3100 Interfaces > Interface Assignments > OPT2](images/Interfaces_OPT2_VLAN.55.png)
+
+---
 
 ### **Interfaces > Interface Assignments > OPT3**
 

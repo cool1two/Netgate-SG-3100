@@ -1,5 +1,5 @@
 
-# Netgate-SG-3100
+# Netgate-SG-3100 (Complete)
 
 ## Configuration Setting for Netgate SG-3100
 
@@ -69,6 +69,8 @@
 
 
 ![SG-3100 Firewall > Rules > IOT > Allow PFSense DNS](images/Firewall_Rules_Vlan_IOT_Allow_Dns.png)
+
+---
 
 ### **Firewall > Rules > IOT/NGW Network > Final Configuration**
 
