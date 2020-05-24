@@ -6,12 +6,48 @@
 
 ---
 
-### <span style="color:Orange">Interfaces > WlN /span>
+### <span style="color:Orange">Interfaces > LAN </span>
 
 #### *Items Modified From Default -.*
 
-    1. Block private networks and loopback addresses = Unchecked
+    1. IPv4 Address = 192.168.1.1
 
 ![SG-3100 Interfaces > WAN](images/Lan-Interface-Configuration.png)
 
 ---
+
+### <span style="color:Orange">Firewall > Rules > LAN > LAN Deny ALL IPv4 </span>
+
+![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
+
+#### *Items Modified From Default -..*
+
+    1. Interface = LAN
+    2. Address Family = IPv4
+    3. Protocal = ANY
+    4. Discription = LAN Deny ALL IPv4
+
+This rule replaces the default DENY and allows us to log events.
+
+![SG-3100 Firewall > Rules > LAN > LAN Deny ALL IPv4](images/Firewall_LAN_Deny_ALL_IPv4.png)
+
+---
+
+### <span style="color:Orange">Firewall > Rules > LAN > LAN Deny ALL IPv6 </span>
+
+![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
+
+#### *Items Modified From Default -...*
+
+    1. Interface = LAN
+    2. Address Family = IPv6
+    3. Protocal = ANY
+    4. Discription = LAN Deny ALL IPv6
+
+This rule replaces the default DENY and allows us to log events.
+
+![SG-3100 Firewall > Rules > LAN > LAN Deny ALL IPv6](images/Firewall_LAN_Deny_ALL_IPv6.png)
+
+---
+
+## [Return](../README.md)
