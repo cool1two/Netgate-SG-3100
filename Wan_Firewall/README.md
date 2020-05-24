@@ -1,4 +1,4 @@
-# Netgate-SG-3100 (In Progress)
+# Netgate-SG-3100 (Complete)
 
 ## Configuration Setting for Netgate SG-3100
 
@@ -6,7 +6,7 @@
 
 ---
 
-### <span style="color:Orange">Interfaces > WAN /span>
+### <span style="color:Orange">Interfaces > WAN </span>
 
 ![WARN +](https://via.placeholder.com/15/FF6A00/000000?text=+) *For Bench Lab Only.*
 
@@ -15,7 +15,8 @@
 
 ![OK +](https://via.placeholder.com/15/4CFF00/000000?text=+) *For Production.*
 
-#### *Items Modified From Default -.*
+#### *Items Modified From Default -..*
+
     1. Block private networks and loopback addresses = Checked
 
 ![SG-3100 Interfaces > WAN](images/Wan-Interface-Configuration.png)
@@ -26,7 +27,7 @@
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
-#### *Items Modified From Default -..*
+#### *Items Modified From Default -...*
 
     1. Action = Block
     2. Interface = WAN
@@ -43,7 +44,7 @@ This rule replaces the default DENY and allows us to log events.
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
-#### *Items Modified From Default -...*
+#### *Items Modified From Default -....*
 
     1. Action = Block
     2. Interface = WAN
@@ -55,9 +56,7 @@ This rule replaces the default DENY and allows us to log events.
 
 This rule replaces the default DENY and allows us to log events.
 
-
 ![SG-3100 Firewall > Rules > IOT > ALLow ALL](images/Firewall_WAN_Deny_ALL_IPv6.png)
-
 
 ---
 
@@ -67,4 +66,4 @@ This rule replaces the default DENY and allows us to log events.
 
 ---
 
-# [Return](../README.md)
+## [Return](../README.md)

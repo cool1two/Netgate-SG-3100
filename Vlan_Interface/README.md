@@ -10,7 +10,7 @@
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin adding VLAN 55.*
 
-#### *Items Modified From Default*
+#### *Items Modified From Default -.*
 
     1. Parent Interface = Lan
     2. VLAN Tag = 55
@@ -18,14 +18,13 @@
 
 ![SG-3100 Interfaces > VLANs > 55](images/Interfaces-Vlan-55.png)
 
-
 ---
 
 ### <span style="color:Orange">Interfaces > VLANs > 65</span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin adding VLAN 65.*
 
-#### *Items Modified From Default*
+#### *Items Modified From Default -..*
 
     1. Parent Interface = Lan
     2. VLAN Tag = 65
@@ -39,7 +38,7 @@
 
 ![Click](https://via.placeholder.com/15/FFD800/000000?text=+) `Use the Dropdown to modify`
 
-#### *Items Modified From Default*
+#### *Items Modified From Default -...*
 
     1. Modify Interface Assignments > Interfaces OPT2 > Network Port = VLAN 55
     2. Modify Interface Assignments > Interfaces OPT3 > Network Port = VLAN 65
@@ -52,7 +51,7 @@
 
 ![Click](https://via.placeholder.com/15/FFD800/000000?text=+) `Click on OPT2 to being editing`
 
-#### *Items Modified From Default*
+#### *Items Modified From Default -....*
 
     1. Enable = Checked
     2. Description = Interface of Insecure Things.
@@ -66,7 +65,7 @@
 
 ![Click](https://via.placeholder.com/15/FFD800/000000?text=+) `Click on OPT3 to being editing`
 
-#### *Items Modified From Default*
+#### *Items Modified From Default -.....*
 
     1. Enable = Checked
     2. Description = Next Generation Wireless.
@@ -88,4 +87,4 @@
 
 ---
 
-# [Return](../README.md)
+## [Return](../README.md)
