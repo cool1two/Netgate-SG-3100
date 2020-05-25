@@ -6,13 +6,33 @@
 
 ---
 
-### <span style="color:Orange">Services / DNS Resolver / General</span>
+### <span style="color:Orange">Services / DNS Resolver / General Settings</span>
 
 #### *Items Modified From Default -.*
 
-    1. Block private networks and loopback addresses = Unchecked
+    1. Network Interfaces = All
+    2. Outgoing Network Interfaces = All
+    3. System Domain Local Zone Type = Refuse
+    4. DNS Query Forwarding = Checked
+    5. DHCP Registration = Checked
+    6. Static DHCP = Checked
 
-![SG-3100 / Interfaces / WAN](images/Wan-Interface-Configuration.png)
+![SG-3100 / Services / DNS Resolver / General Setting](images/Service_Dns_Resolver_General.png)
+
+---
+
+### <span style="color:Orange">Services / DNS Resolver / xs</span>
+
+#### *Items Modified From Default -..*
+
+    1. Network Interfaces = All
+    2. Outgoing Network Interfaces = All
+    3. System Domain Local Zone Type = Refuse
+    4. DNS Query Forwarding = Checked
+    5. DHCP Registration = Checked
+    6. Static DHCP = Checked
+
+![SG-3100 / Services / DNS Resolver / General Setting](images/Service_Dns_Resolver_General.png)
 
 ---
 
