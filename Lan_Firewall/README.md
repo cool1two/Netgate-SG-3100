@@ -2,21 +2,21 @@
 
 ## Configuration Setting for Netgate SG-3100
 
-## **Firewall > Rules >  WAN**
+## **Firewall / Rules /  WAN**
 
 ---
 
-### <span style="color:Orange">Interfaces > LAN </span>
+### <span style="color:Orange">Interfaces / LAN </span>
 
 #### *Items Modified From Default -.*
 
     1. IPv4 Address = 192.168.1.1
 
-![SG-3100 Interfaces > WAN](images/Lan-Interface-Configuration.png)
+![SG-3100 Interfaces / WAN](images/Lan-Interface-Configuration.png)
 
 ---
 
-### <span style="color:Orange">Firewall > Rules > LAN > LAN Deny ALL IPv4 </span>
+### <span style="color:Orange">Firewall / Rules / LAN / LAN Deny ALL IPv4 </span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
@@ -29,11 +29,11 @@
 
 This rule replaces the default DENY and allows us to log events.
 
-![SG-3100 Firewall > Rules > LAN > LAN Deny ALL IPv4](images/Firewall_LAN_Deny_ALL_IPv4.png)
+![SG-3100 Firewall / Rules / LAN / LAN Deny ALL IPv4](images/Firewall_LAN_Deny_ALL_IPv4.png)
 
 ---
 
-### <span style="color:Orange">Firewall > Rules > LAN > LAN Deny ALL IPv6 </span>
+### <span style="color:Orange">Firewall / Rules / LAN / LAN Deny ALL IPv6 </span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
@@ -46,11 +46,11 @@ This rule replaces the default DENY and allows us to log events.
 
 This rule replaces the default DENY and allows us to log events.
 
-![SG-3100 Firewall > Rules > LAN > LAN Deny ALL IPv6](images/Firewall_LAN_Deny_ALL_IPv6.png)
+![SG-3100 Firewall / Rules / LAN / LAN Deny ALL IPv6](images/Firewall_LAN_Deny_ALL_IPv6.png)
 
 ---
 
-### <span style="color:Orange">Firewall > Rules > LAN > Default Allow LAN IPv4 </span>
+### <span style="color:Orange">Firewall / Rules / LAN / Default Allow LAN IPv4 </span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
@@ -63,11 +63,11 @@ This rule replaces the default DENY and allows us to log events.
     5. Destination = ANY
     6. Discription = Default Allow LAN IPv4
 
-![SG-3100 Firewall > Rules > LAN > Default Allow LAN IPv4](images/Firewall_LAN_Allow_ALL_IPv4.png)
+![SG-3100 Firewall / Rules / LAN / Default Allow LAN IPv4](images/Firewall_LAN_Allow_ALL_IPv4.png)
 
 ---
 
-### <span style="color:Orange">Firewall > Rules > LAN > Default Allow LAN IPv6 </span>
+### <span style="color:Orange">Firewall / Rules / LAN / Default Allow LAN IPv6 </span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
@@ -80,13 +80,13 @@ This rule replaces the default DENY and allows us to log events.
     5. Destination = ANY
     6. Discription = Default Allow LAN IPv6
 
-![SG-3100 Firewall > Rules > LAN > Default Allow LAN IPv6](images/Firewall_LAN_Allow_ALL_IPv6.png)
+![SG-3100 Firewall / Rules / LAN / Default Allow LAN IPv6](images/Firewall_LAN_Allow_ALL_IPv6.png)
 
 ---
 
 #### *Final LAN Firewall Configuration.*
 
-![SG-3100 Interfaces > Interface Assignments](images/Firewall_Lan_Final.png)
+![SG-3100 Interfaces / Interface Assignments](images/Firewall_Lan_Final.png)
 
 ---
 
