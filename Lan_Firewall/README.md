@@ -54,7 +54,7 @@ This rule replaces the default DENY and allows us to log events.
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
-#### *Items Modified From Default -...*
+#### *Items Modified From Default -....*
 
     1. Interface = LAN
     2. Address Family = IPv4
@@ -71,7 +71,7 @@ This rule replaces the default DENY and allows us to log events.
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
-#### *Items Modified From Default -...*
+#### *Items Modified From Default -.....*
 
     1. Interface = LAN
     2. Address Family = IPv6
@@ -81,6 +81,12 @@ This rule replaces the default DENY and allows us to log events.
     6. Discription = Default Allow LAN IPv6
 
 ![SG-3100 Firewall > Rules > LAN > Default Allow LAN IPv6](images/Firewall_LAN_Allow_ALL_IPv6.png)
+
+---
+
+#### *Final LAN Firewall Configuration.*
+
+![SG-3100 Interfaces > Interface Assignments](images/Firewall_Lan_Final.png)
 
 ---
 
