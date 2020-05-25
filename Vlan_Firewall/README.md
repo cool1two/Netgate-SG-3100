@@ -7,7 +7,7 @@
 
 ---
 
-### <span style="color:Orange"/System / Firewall / Rules / IOT Network / Allow All IoT</span>
+### <span style="color:Orange">System / Firewall / Rules / IOT Network / Allow All IoT</span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
@@ -23,7 +23,7 @@
 
 ---
 
-### <span style="color:Orange"/Firewall / Rules / IOT Network / Block IoT to LAN</span>
+### <span style="color:Orange">Firewall / Rules / IOT Network / Block IoT to LAN</span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
@@ -39,7 +39,7 @@
 
 ---
 
-### <span style="color:Orange"/Firewall / Rules / IOT Network / Block External DNS</span>
+### <span style="color:Orange">Firewall / Rules / IOT Network / Block External DNS</span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
@@ -55,7 +55,7 @@
 
 ---
 
-### <span style="color:Orange"/Firewall / Rules / IOT Network / Allow PFSense DNS</span>
+### <span style="color:Orange">Firewall / Rules / IOT Network / Allow PFSense DNS</span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
@@ -72,7 +72,7 @@
 
 ---
 
-### <span style="color:Orange"/Firewall / Rules / IOT Network / Final Configuration</span>
+### <span style="color:Orange">Firewall / Rules / IOT Network / Final Configuration</span>
 
 ![SG-3100 Firewall / Rules / IOT ](images/Firewall_Rules_Vlan_IOT_Final.png)
 
