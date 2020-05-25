@@ -27,9 +27,50 @@
 
 #### *Items Modified From Default -..*
 
-    1. Network Interfaces = All
+    1. Interface = LAN
+    2. Protocol = TCP/UDP
+    3. Source = 
 
 ![SG-3100 / Firewall / NAT / Port Forward](images/Firewall_Nat_PortForward.png)
+
+---
+
+### <span style="color:Orange">Firewall / Rules / LAN / Block DNS Catchall</span>
+
+![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
+
+#### *Items Modified From Default -...*
+
+    1. Action = Block
+    2. Interface = LAN
+    3. Address Family = IPv4
+    4. Protocol = TCP/UDP
+    5. Source = Any
+    6. Destination = Any
+    7. Destination Port Range = DNS (53)
+    8. Description = Block DNS Catchall
+    9. Log = Checked
+
+![SG-3100 / Firewall / Rules / LAN / Block DNS Catchall](imagesiFirewall_Rules_Lan_Block_Dns.png)
+
+---
+
+### <span style="color:Orange">Firewall / Rules / LAN / Permit OpenDNS</span>
+
+![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
+
+#### *Items Modified From Default -...*
+
+    1. Action = Pass
+    2. Interface = LAN
+    3. Address Family = IPv4
+    4. Protocol = TCP/UDP
+    5. Source = Single host or alias (Alias = Pihole_Dns)
+    6. Destination = Single host or alias (Alias = Open_Dns)
+    7. Destination Port Range = DNS (53)
+    8. Description = Permit OpenDNS
+
+![SG-3100 / Firewall / Rules / LAN / Permit OpenDNS](imagesiFirewall_Rules_Lan_Open_Dns.png)
 
 ---
 
