@@ -14,6 +14,10 @@
 
 ## DNS Redirect for Pihole and Netgate SG-3100
 
-### [6. Firewalls > Rules > LAN](Lan_Firewall/README.md)
+### [6. DNS Forwarding with Pihole Ad Blocking](Dns_Pihole/README.md)
+
+    1. DNS Resolver Rules
+    2. Firewall > Nat Rules
+    3. Firewall > Lan Rules
 
 ---
