@@ -31,4 +31,6 @@
 
 ### [Firewalls > Rules > WAN](Wan_Firewall/README.md)
 
+### [Firewalls > Rules > LAN](Lan_Firewall/README.md)
+
 ---
