@@ -17,6 +17,7 @@
 ### [6. DNS Forwarding with Pihole Ad Blocking](Dns_Pihole/README.md)
 
 This contains the following items.
+
     1. DNS Resolver Rules
     2. Firewall > Nat Rules
     3. Firewall > Lan Rules
