@@ -2,22 +2,15 @@
 
 ## Configuration Setting for Netgate SG-3100
 
-## **Firewall > Rules >  WAN**
+## **Services / DNS Resolver / General**
 
 ---
 
-### <span style="color:Orange">Interfaces > WAN </span>
-
-![WARN +](https://via.placeholder.com/15/FF6A00/000000?text=+) *For Bench Lab Only.*
+### <span style="color:Orange">Services / DNS Resolver / General</span>
 
 #### *Items Modified From Default -.*
+
     1. Block private networks and loopback addresses = Unchecked
-
-![OK +](https://via.placeholder.com/15/4CFF00/000000?text=+) *For Production.*
-
-#### *Items Modified From Default -..*
-
-    1. Block private networks and loopback addresses = Checked
 
 ![SG-3100 Interfaces > WAN](images/Wan-Interface-Configuration.png)
 
@@ -30,3 +23,8 @@
 ---
 
 ## [Return](../README.md)
+
+
+
+![WARN +](https://via.placeholder.com/15/FF6A00/000000?text=+) *For Bench Lab Only.*
+![OK +](https://via.placeholder.com/15/4CFF00/000000?text=+) *For Production.*
