@@ -51,7 +51,7 @@
     8. Description = Block DNS Catchall
     9. Log = Checked
 
-![SG-3100 / Firewall / Rules / LAN / Block DNS Catchall](imagesiFirewall_Rules_Lan_Block_Dns.png)
+![SG-3100 / Firewall / Rules / LAN / Block DNS Catchall](images/Firewall_Rules_Lan_Block_Dns.png)
 
 ---
 
@@ -70,7 +70,7 @@
     7. Destination Port Range = DNS (53)
     8. Description = Permit OpenDNS
 
-![SG-3100 / Firewall / Rules / LAN / Permit OpenDNS](imagesiFirewall_Rules_Lan_Open_Dns.png)
+![SG-3100 / Firewall / Rules / LAN / Permit OpenDNS](images/Firewall_Rules_Lan_Open_Dns.png)
 
 ---
 
