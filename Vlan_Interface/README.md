@@ -2,11 +2,11 @@
 
 ## Configuration Setting for Netgate SG-3100
 
-## **Interfaces > VLANs > VLAN Interfaces**
+## **Interfaces / VLANs / VLAN Interfaces**
 
 ---
 
-### <span style="color:Orange">Interfaces > VLANs > 55</span>
+### <span style="color:Orange">Interfaces / VLANs / 55</span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin adding VLAN 55.*
 
@@ -16,11 +16,11 @@
     2. VLAN Tag = 55
     3. Description = Internet of Insecure Things.
 
-![SG-3100 Interfaces > VLANs > 55](images/Interfaces-Vlan-55.png)
+![SG-3100 Interfaces / VLANs / 55](images/Interfaces-Vlan-55.png)
 
 ---
 
-### <span style="color:Orange">Interfaces > VLANs > 65</span>
+### <span style="color:Orange">Interfaces / VLANs / 65</span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin adding VLAN 65.*
 
@@ -30,24 +30,24 @@
     2. VLAN Tag = 65
     3. Description = Next Generation Wireless.
 
-![SG-3100 Interfaces > VLANS 65](images/Interfaces-Vlan-65.png)
+![SG-3100 Interfaces / VLANS 65](images/Interfaces-Vlan-65.png)
 
 ---
 
-### <span style="color:Orange">Interfaces > Interface Assignments</span>
+### <span style="color:Orange">Interfaces / Interface Assignments</span>
 
 ![Click](https://via.placeholder.com/15/FFD800/000000?text=+) `Use the Dropdown to modify`
 
 #### *Items Modified From Default -...*
 
-    1. Modify Interface Assignments > Interfaces OPT2 > Network Port = VLAN 55
-    2. Modify Interface Assignments > Interfaces OPT3 > Network Port = VLAN 65
+    1. Modify Interface Assignments / Interfaces OPT2 / Network Port = VLAN 55
+    2. Modify Interface Assignments / Interfaces OPT3 / Network Port = VLAN 65
 
-![SG-3100 Interfaces > Interface Assignments](images/Interfaces-Interface-Assignments.png)
+![SG-3100 Interfaces / Interface Assignments](images/Interfaces-Interface-Assignments.png)
 
 ---
 
-### <span style="color:Orange">Interfaces > Interface Assignments > OPT2</span>
+### <span style="color:Orange">Interfaces / Interface Assignments / OPT2</span>
 
 ![Click](https://via.placeholder.com/15/FFD800/000000?text=+) `Click on OPT2 to being editing`
 
@@ -57,11 +57,11 @@
     2. Description = Interface of Insecure Things.
     3. IPv4 Address = 192.168.55.1
 
-![SG-3100 Interfaces > Interface Assignments > OPT2](images/Interfaces_OPT2_VLAN.55.png)
+![SG-3100 Interfaces / Interface Assignments / OPT2](images/Interfaces_OPT2_VLAN.55.png)
 
 ---
 
-### <span style="color:Orange">Interfaces > Interface Assignments > OPT3</span>
+### <span style="color:Orange">Interfaces / Interface Assignments / OPT3</span>
 
 ![Click](https://via.placeholder.com/15/FFD800/000000?text=+) `Click on OPT3 to being editing`
 
@@ -71,13 +71,13 @@
     2. Description = Next Generation Wireless.
     3. IPv4 Address = 192.168.65.1
 
-![SG-3100 Interfaces > Interface Assignments > OPT3](images/Interfaces_OPT2_VLAN.65.png)
+![SG-3100 Interfaces / Interface Assignments / OPT3](images/Interfaces_OPT2_VLAN.65.png)
 
 ---
 
 #### *Final Interface Assignments Configuration.*
 
-![SG-3100 Interfaces > Interface Assignments](images/Interfaces-Interface-Assignments2.png)
+![SG-3100 Interfaces / Interface Assignments](images/Interfaces-Interface-Assignments2.png)
 
 ---
 

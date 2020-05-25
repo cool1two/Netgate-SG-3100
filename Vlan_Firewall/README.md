@@ -3,11 +3,11 @@
 
 ## Configuration Setting for Netgate SG-3100
 
-## **Firewall > Rules**
+## **Firewall / Rules**
 
 ---
 
-### <span style="color:Orange">System > Firewall > Rules > IOT/NGW Network > Allow All IoT</span>
+### <span style="color:Orange"/System / Firewall / Rules / IOT Network / Allow All IoT</span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
@@ -19,11 +19,11 @@
     4. Source = IOT Net
     5. Description = Allow All IoT
 
-![SG-3100 Firewall > Rules > IOT > ALLow ALL](images/Firewall_Rules_Vlan_IOT_Allow_All.png)
+![SG-3100 Firewall / Rules / IOT / ALLow ALL](images/Firewall_Rules_Vlan_IOT_Allow_All.png)
 
 ---
 
-### <span style="color:Orange">Firewall > Rules > IOT/NGW Network > Block IoT to LAN</span>
+### <span style="color:Orange"/Firewall / Rules / IOT Network / Block IoT to LAN</span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
@@ -33,13 +33,13 @@
     2. Interface = IOT
     3. Protocol = Any
     4. Destination = LAN Net
-    5. Description = Block IoT > Lan
+    5. Description = Block IoT / Lan
 
-![SG-3100 Firewall > Rules > IOT > Block IoT to Lan](images/Firewall_Rules_Vlan_IOT_Block_IOT_Lan.png)
+![SG-3100 Firewall / Rules / IOT / Block IoT to Lan](images/Firewall_Rules_Vlan_IOT_Block_IOT_Lan.png)
 
 ---
 
-### <span style="color:Orange">Firewall > Rules > IOT/NGW Network > Block External DNS</span>
+### <span style="color:Orange"/Firewall / Rules / IOT Network / Block External DNS</span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
@@ -51,11 +51,11 @@
     4. Destination Port Range = 53 
     5. Description = Block DNS IoT
 
-![SG-3100 Firewall > Rules > IOT > Block External DNS](images/Firewall_Rules_Vlan_IOT_Block_Dns.png)
+![SG-3100 Firewall / Rules / IOT / Block External DNS](images/Firewall_Rules_Vlan_IOT_Block_Dns.png)
 
 ---
 
-### <span style="color:Orange">Firewall > Rules > IOT/NGW Network > Allow PFSense DNS</span>
+### <span style="color:Orange"/Firewall / Rules / IOT Network / Allow PFSense DNS</span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
 
@@ -68,13 +68,13 @@
     4. Destination Port Range = 53 
     5. Description = Allow DNS IoT
 
-![SG-3100 Firewall > Rules > IOT > Allow PFSense DNS](images/Firewall_Rules_Vlan_IOT_Allow_Dns.png)
+![SG-3100 Firewall / Rules / IOT / Allow PFSense DNS](images/Firewall_Rules_Vlan_IOT_Allow_Dns.png)
 
 ---
 
-### <span style="color:Orange">Firewall > Rules > IOT/NGW Network > Final Configuration</span>
+### <span style="color:Orange"/Firewall / Rules / IOT Network / Final Configuration</span>
 
-![SG-3100 Firewall > Rules > IOT ](images/Firewall_Rules_Vlan_IOT_Final.png)
+![SG-3100 Firewall / Rules / IOT ](images/Firewall_Rules_Vlan_IOT_Final.png)
 
 ---
 

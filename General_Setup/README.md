@@ -2,11 +2,11 @@
 
 ## Configuration Setting for Netgate SG-3100
 
-## **System > General Setup**
+## **System / General Setup**
 
 ---
 
-### <span style="color:Orange">System > General Setup</span>
+### <span style="color:Orange">System / General Setup</span>
 
 #### *Items Modified From Default*
 
@@ -16,7 +16,7 @@
     4. DNS Server Override = Unchecked
     5. Disable DNS Forwarder = Checked
 
-![SG-3100 System > General Setup](images/System-General-Setup.png)
+![SG-3100 System / General Setup](images/System-General-Setup.png)
 
 ---
 
