@@ -12,13 +12,13 @@
 
     1. Block private networks and loopback addresses = Unchecked
 
-![SG-3100 Interfaces > WAN](images/Wan-Interface-Configuration.png)
+![SG-3100 / Interfaces / WAN](images/Wan-Interface-Configuration.png)
 
 ---
 
 #### *Final WAN Firewall Configuration.*
 
-![SG-3100 Interfaces > Interface Assignments](images/Firewall_WAN_Final.png)
+![SG-3100 / Interfaces / Interface Assignments](images/Firewall_WAN_Final.png)
 
 ---
 
