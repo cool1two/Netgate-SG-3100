@@ -74,9 +74,28 @@
 
 ---
 
+### <span style="color:Orange">Firewall / Rules / LAN / Allow Firewall DNS</span>
+
+![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin.*
+
+#### *Items Modified From Default -...'*
+
+    1. Action = Pass
+    2. Interface = LAN
+    3. Address Family = IPv4
+    4. Protocol = TCP/UDP
+    5. Source = Any
+    6. Destination = This Firewall (self)
+    7. Destination Port Range = DNS (53)
+    8. Description = Allow Firewall DNS
+
+![SG-3100 / Firewall / Rules / LAN / Allow Firewall DNS](images/Firewall_Rules_Lan_Allow_Firewall_Dns.png)
+
+---
+
 #### *Final WAN Firewall Configuration.*
 
-![SG-3100 / Interfaces / Interface Assignments](images/Firewall_WAN_Final.png)
+![SG-3100 / Firewall / Rules / LAN / Final](images/Firewall_Rules_Dns_Final.png)
 
 ---
 
