@@ -29,7 +29,7 @@
 
     1. Interface = LAN
     2. Protocol = TCP/UDP
-    3. Source = 
+    3. Source = Single Host or Alias (Pihole_Dns)
 
 ![SG-3100 / Firewall / NAT / Port Forward](images/Firewall_Nat_PortForward.png)
 
