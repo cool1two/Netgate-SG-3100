@@ -6,7 +6,7 @@
 
 ---
 
-### <span style="color:Orange">Interfaces / VLANs / 55</span>
+### <span style="color:Orange">Interfaces / Assignments / VLANs / 55</span>
 
 ![ADD +](https://via.placeholder.com/15/43A047/000000?text=+) *Click Add to begin adding VLAN 55.*
 
@@ -54,8 +54,9 @@
 #### *Items Modified From Default -....*
 
     1. Enable = Checked
-    2. Description = Interface of Insecure Things.
-    3. IPv4 Address = 192.168.55.1
+    2. IPv4 Configuration Type = Static
+    3. Description = Interface of Insecure Things.
+    4. IPv4 Address = 192.168.55.1 / 24
 
 ![SG-3100 Interfaces / Interface Assignments / OPT2](images/Interfaces_OPT2_VLAN.55.png)
 
@@ -68,8 +69,9 @@
 #### *Items Modified From Default -.....*
 
     1. Enable = Checked
-    2. Description = Next Generation Wireless.
-    3. IPv4 Address = 192.168.65.1
+    2. IPv4 Configuration Type = Static
+    3. Description = Next Generation Wireless.
+    4. IPv4 Address = 192.168.65.1 / 24
 
 ![SG-3100 Interfaces / Interface Assignments / OPT3](images/Interfaces_OPT2_VLAN.65.png)
 
