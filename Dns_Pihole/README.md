@@ -29,7 +29,15 @@
 
     1. Interface = LAN
     2. Protocol = TCP/UDP
-    3. Source = Single Host or Alias (Pihole_Dns)
+    3. Source = (Invert = Checked) Single Host or Alias (Pihole_Dns)
+        # Sorce is not Pihole DNS
+    4. Destination = (Invert = Checked) LAN net
+        # Destination is not LAN
+    5. Destination port range = DNS (53)
+    6. Redirect target = 127.0.0.1
+    7. Redirect target port = DNS (53)
+    8.. Description =  Redirect DNS
+    9. NAT reflection = Disabled
 
 ![SG-3100 / Firewall / NAT / Port Forward](images/Firewall_Nat_PortForward.png)
 
